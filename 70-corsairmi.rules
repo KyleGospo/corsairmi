@@ -1,0 +1,12 @@
+#---------------------------------------------------------------#
+# corsairmi
+#---------------------------------------------------------------#
+SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c0a", TAG+="RM650i", MODE="0666"
+SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c0b", TAG+="RM750i", MODE="0666"
+SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c0c", TAG+="RM850i", MODE="0666"
+SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c0d", TAG+="RM1000i", MODE="0666"
+SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c04", TAG+="HX650i", MODE="0666"
+SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c05", TAG+="HX750i", MODE="0666"
+SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c06", TAG+="HX850i", MODE="0666"
+SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c07", TAG+="HX1000i", MODE="0666"
+SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c08", TAG+="HX1200i", MODE="0666"
