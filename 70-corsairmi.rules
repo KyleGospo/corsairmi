@@ -1,12 +1,21 @@
 #---------------------------------------------------------------#
 # corsairmi
 #---------------------------------------------------------------#
-SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c0a", TAG+="RM650i", MODE="0666"
-SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c0b", TAG+="RM750i", MODE="0666"
-SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c0c", TAG+="RM850i", MODE="0666"
-SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c0d", TAG+="RM1000i", MODE="0666"
-SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c04", TAG+="HX650i", MODE="0666"
-SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c05", TAG+="HX750i", MODE="0666"
-SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c06", TAG+="HX850i", MODE="0666"
-SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c07", TAG+="HX1000i", MODE="0666"
-SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c08", TAG+="HX1200i", MODE="0666"
+# RM650i
+SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c0a", MODE:="0660", GROUP="wheel"
+# RM750i
+SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c0b", MODE:="0660", GROUP="wheel"
+# RM850i
+SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c0c", MODE:="0660", GROUP="wheel"
+# RM1000i
+SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c0d", MODE:="0660", GROUP="wheel"
+# HX650i
+SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c04", MODE:="0660", GROUP="wheel"
+# HX750i
+SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c05", MODE:="0660", GROUP="wheel"
+# HX850i
+SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c06", MODE:="0660", GROUP="wheel"
+# HX1000i
+SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c07", MODE:="0660", GROUP="wheel"
+# HX1200i
+SUBSYSTEMS=="hidraw", ATTRS{idVendor}=="1b1c", ATTRS{idProduct}=="1c08", MODE:="0660", GROUP="wheel"
